@@ -1,0 +1,33 @@
+#include<stdio.h>
+#include<stdib.h>
+Typedef struct{
+Char name[30];
+But id;
+Int salary;
+} employee
+Int main ()
+{
+Int I,n=2;
+Employee employee[n];
+Printf("Enter %d employee details\n\n",n);
+For (i=0; i<n; i++);
+Printf("employee %d:-\n",i+1);
+Print("name:");
+Scanf("%s",employees[i].name);
+Printf("id:");
+Scanf("%d",&employees[i].id);
+Printf("salary:");
+Scanf("%d",&employees[i].salary);
+Printf("\n");
+}
+Printf("enter %d all employees details \n");
+For(i=0; i<n;i++){
+Printf("name\t:");
+Printf("%s\n",employees[i].name);
+Printf("id\t:");
+Printf("salary \t:");
+Printf("%d\n",employees[i].salary);
+Printf("\n");
+}
+Return 0;
+}
